@@ -1,28 +1,28 @@
 {
   "pensamentos": [
     {
-      "id": 1,
       "conteudo": "A vida é feita de escolhas.",
       "autoria": "Autor Desconhecido",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "id": 1
     },
     {
-      "id": 2,
       "conteudo": "O mar é azul.",
       "autoria": "Marinha",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "id": 2
     },
     {
-      "id": 3,
       "conteudo": "Um dia de cada vez.",
       "autoria": "Pensador",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "id": 3
     },
     {
-      "id": 4,
       "conteudo": "Cada dia a natureza produz o suficiente para nossa carência. Se cada um tomasse o que lhe fosse necessário, não havia pobreza no mundo e ninguém morreria de fome.",
       "autoria": "Martin Luther King",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "id": 4
     },
     {
       "conteudo": "Ser ou não ser, eis a questão.",
@@ -41,6 +41,24 @@
       "autoria": "Dev Ana",
       "modelo": "modelo3",
       "id": 7
+    },
+    {
+      "id": 8,
+      "conteudo": "A vida é bela e a vaca é amarela!",
+      "autoria": "Autor desconhecido (mas pode ser um Touro)",
+      "modelo": "modelo1"
+    },
+    {
+      "conteudo": "testetesteteste testetesteteste",
+      "autoria": "teste2",
+      "modelo": "modelo2",
+      "id": 10
+    },
+    {
+      "conteudo": "A aranha arranha a jarra. A jarra arranha a aranha. Nem a aranha aranha a jarra, nem a jarra aranha a aranha.",
+      "autoria": "Trava-língua",
+      "modelo": "modelo3",
+      "id": 12
     }
   ]
 }

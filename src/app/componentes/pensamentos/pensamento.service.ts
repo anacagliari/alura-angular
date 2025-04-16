@@ -9,6 +9,7 @@ import { Observable } from 'rxjs';
 export class PensamentoService {
 
   private readonly API = 'http://localhost:3000/pensamentos';
+  formBuilder: any;
 
   constructor(private http: HttpClient) { }
 

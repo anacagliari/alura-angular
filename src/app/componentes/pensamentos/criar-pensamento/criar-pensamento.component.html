@@ -2,7 +2,9 @@
   <header class="header">
     <h2>Insira seu <br>novo pensamento</h2>
   </header>
-  <form [formGroup]="formulario" (ngSubmit)="criarPensamento()">
+
+  <form [formGroup]="formulario">
+
     <label for="pensamento">Pensamento</label>
     <input
         type="textarea"
@@ -56,8 +58,6 @@
     <label for="modelo">Escolha o modelo de card para o seu pensamento</label>
     <div class="container-radio">
 
-      <label for="modelo">Selecione o modelo do card:</label>
-      <div class="container-radio">
         <div class="radio-modelo">
           <label for="modelo1">
             <input
@@ -120,11 +120,16 @@
             <p class="autoria"><b>{{ formulario.get('autoria')?.value }}</b></p>
           </div>
         </div>
-      </div>
     </div>
 
     <div class="acoes">
-      <button (click)="criarPensamento()" class="botao">Salvar</button>
+      <button
+      (click)="criarPensamento()"
+      [disabled]="!formulario.valid"
+      [ngClass]="habilitarBotaoSalvar()"
+      >
+      Salvar
+      </button>
       <button (click)="cancelar()" class="botao">Cancelar</button>
     </div>
 
