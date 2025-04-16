@@ -1,0 +1,46 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "A vida é feita de escolhas.",
+      "autoria": "Autor Desconhecido",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 2,
+      "conteudo": "O mar é azul.",
+      "autoria": "Marinha",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 3,
+      "conteudo": "Um dia de cada vez.",
+      "autoria": "Pensador",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 4,
+      "conteudo": "Cada dia a natureza produz o suficiente para nossa carência. Se cada um tomasse o que lhe fosse necessário, não havia pobreza no mundo e ninguém morreria de fome.",
+      "autoria": "Martin Luther King",
+      "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Ser ou não ser, eis a questão.",
+      "autoria": "William Shakespeare",
+      "modelo": "modelo2",
+      "id": 5
+    },
+    {
+      "conteudo": "Viva a vida ou morra tentando.",
+      "autoria": "Sobreviva ou Morra Tentando - Filme 2020",
+      "modelo": "modelo1",
+      "id": 6
+    },
+    {
+      "conteudo": "Aprendendo Angular na Alura pela DBServer :)",
+      "autoria": "Dev Ana",
+      "modelo": "modelo3",
+      "id": 7
+    }
+  ]
+}
