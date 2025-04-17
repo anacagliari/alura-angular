@@ -17,6 +17,8 @@ export class PensamentoComponent implements OnInit {
     favorito: false
   }
 
+  @Input() listaFavoritos: Pensamento[] = [];
+
   constructor(private service: PensamentoService) { }
 
   ngOnInit(): void {
@@ -38,7 +40,15 @@ export class PensamentoComponent implements OnInit {
   }
 
   atualizarFavoritos() {
-    this.service.alterarFavorito(this.pensamento).subscribe();
+    this.service.alterarFavorito(this.pensamento).subscribe(() => {
+      if (this.pensamento.favorito) {
+        this.listaFavoritos.push(this.pensamento);
+      } else {
+        const index = this.listaFavoritos.findIndex((pensamento: Pensamento) => pensamento.id === this.pensamento.id);
+        this.listaFavoritos.splice(index, 1);
+      }
+    }
+    );
   }
 
 }

@@ -5,7 +5,7 @@
       "autoria": "Autor Desconhecido",
       "modelo": "modelo2",
       "id": 1,
-      "favorito": true
+      "favorito": false
     },
     {
       "conteudo": "O mar é azul.",
@@ -33,7 +33,7 @@
       "autoria": "William Shakespeare",
       "modelo": "modelo2",
       "id": 5,
-      "favorito": false
+      "favorito": true
     },
     {
       "conteudo": "Viva a vida ou morra tentando.",
