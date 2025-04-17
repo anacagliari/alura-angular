@@ -37,6 +37,7 @@ formulario!: FormGroup;
           Validators.maxLength(100)
         ])],
         modelo: [pensamento.modelo],
+        favorito: [pensamento.favorito]
       });
     });
   }

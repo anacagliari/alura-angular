@@ -36,6 +36,11 @@ export class PensamentoService {
     return this.http.put<Pensamento>(url, pensamento);
   }
 
+  alterarFavorito(pensamento: Pensamento): Observable<Pensamento> {
+    pensamento.favorito = !pensamento.favorito;
+    return this.editar(pensamento);
+  }
+
   excluir(id: number): Observable<Pensamento> {
     const url = `${this.API}/${id}`;
     return this.http.delete<Pensamento>(url);
@@ -46,10 +51,4 @@ export class PensamentoService {
     return this.http.get<Pensamento>(url);
   }
 
-/*
-  buscarPensamentosPorFiltro(filtro: string, pagina: number, limite: number) {
-    const url = `${this.API}?q=${filtro}&_page=${pagina}&_limit=${limite}`;
-    return this.http.get<Pensamento[]>(url);
-  }
-*/
 }

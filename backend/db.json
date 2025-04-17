@@ -4,61 +4,71 @@
       "conteudo": "A vida é feita de escolhas.",
       "autoria": "Autor Desconhecido",
       "modelo": "modelo2",
-      "id": 1
+      "id": 1,
+      "favorito": true
     },
     {
       "conteudo": "O mar é azul.",
       "autoria": "Marinha",
       "modelo": "modelo1",
-      "id": 2
+      "id": 2,
+      "favorito": false
     },
     {
       "conteudo": "Um dia de cada vez.",
       "autoria": "Pensador",
       "modelo": "modelo3",
-      "id": 3
+      "id": 3,
+      "favorito": false
     },
     {
       "conteudo": "Cada dia a natureza produz o suficiente para nossa carência. Se cada um tomasse o que lhe fosse necessário, não havia pobreza no mundo e ninguém morreria de fome.",
       "autoria": "Martin Luther King",
       "modelo": "modelo3",
-      "id": 4
+      "id": 4,
+      "favorito": false
     },
     {
       "conteudo": "Ser ou não ser, eis a questão.",
       "autoria": "William Shakespeare",
       "modelo": "modelo2",
-      "id": 5
+      "id": 5,
+      "favorito": false
     },
     {
       "conteudo": "Viva a vida ou morra tentando.",
       "autoria": "Sobreviva ou Morra Tentando - Filme 2020",
       "modelo": "modelo1",
-      "id": 6
+      "id": 6,
+      "favorito": true
     },
     {
       "conteudo": "Aprendendo Angular na Alura pela DBServer :)",
       "autoria": "Dev Ana",
       "modelo": "modelo3",
-      "id": 7
+      "id": 7,
+      "favorito": false
     },
     {
-      "id": 8,
       "conteudo": "A vida é bela e a vaca é amarela!",
       "autoria": "Autor desconhecido (mas pode ser um Touro)",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "id": 8,
+      "favorito": false
     },
     {
       "conteudo": "testetesteteste testetesteteste",
       "autoria": "teste2",
       "modelo": "modelo2",
-      "id": 10
+      "id": 10,
+      "favorito": false
     },
     {
       "conteudo": "A aranha arranha a jarra. A jarra arranha a aranha. Nem a aranha aranha a jarra, nem a jarra aranha a aranha.",
       "autoria": "Trava-língua",
       "modelo": "modelo3",
-      "id": 12
+      "id": 12,
+      "favorito": true
     }
   ]
 }

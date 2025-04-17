@@ -3,4 +3,5 @@ export interface Pensamento {
   autoria: string
   modelo: string
   id?: number
+  favorito: boolean
 }
